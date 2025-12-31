@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StudyBuddy AI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>📚 StudyBuddy AI</h1>
+            <p>Upload your notes and let AI summarize them for you.</p>
+        </header>
+
+        <main>
+            <div class="upload-section">
+                <input type="file" id="imageInput" accept="image/*">
+                <button onclick="processNotes()" id="btn-analyze">Generate Study Guide</button>
+            </div>
+
+            <div id="loader" class="hidden">Analyzing your notes... Please wait.</div>
+
+            <div id="result-section" class="hidden">
+                <h2>Generated Summary & Quiz</h2>
+                <div id="ai-output"></div>
+            </div>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
