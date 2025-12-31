@@ -1,7 +1,7 @@
 Project Title: StudyBuddy AI
 Tagline: Transform your handwritten or printed notes into organized study guides using Gemini AI.
 
-Project Description
+Project Description:
 StudyBuddy AI is a web-based tool designed to help students streamline their learning process. Users can upload images of their study notes, and the application leverages the Google Gemini 1.5 Flash model to analyze the content. The AI provides a concise bulleted summary and generates three relevant quiz questions to test the user's understanding of the material.
 
 Key Features
